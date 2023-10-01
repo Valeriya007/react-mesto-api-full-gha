@@ -1,0 +1,10 @@
+.popup__error {
+  color: #f00;
+  font-family: 'Inter', 'Arial', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 125%;
+  visibility: visible;
+  position: absolute;
+  top: 28px;
+}
