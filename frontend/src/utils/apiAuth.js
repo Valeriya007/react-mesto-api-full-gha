@@ -1,4 +1,4 @@
-export const baseUrl = 'http://api.mesto.valeriya.nomoredomainsrocks.ru';
+export const baseUrl = 'https://api.mesto.valeriya.nomoredomainsrocks.ru';
 
 function getResponse(res) {
     return res.ok ? res.json() : Promise.reject(`Ошибка: ${res.status}`)
