@@ -1,4 +1,4 @@
-export const baseUrl = 'http://api.mesto.valeriya.nomoredomainsrocks.ru';
+export const baseUrl = "http://localhost:3000";
 
 function getResponse(res) {
     return res.ok ? res.json() : Promise.reject(`Ошибка: ${res.status}`)

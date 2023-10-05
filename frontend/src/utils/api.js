@@ -117,7 +117,7 @@ class Api {
 
 /*Api*/
 const api = new Api({
-  baseUrl: 'http://api.mesto.valeriya.nomoredomainsrocks.ru'
+  baseUrl: 'http://localhost:3000'
 });
 
 
